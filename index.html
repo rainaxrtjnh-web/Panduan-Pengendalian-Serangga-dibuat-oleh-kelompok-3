@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengendalian Serangga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Panduan Pengendalian Serangga</h1>
+        <p>Masukkan nama serangga untuk mengetahui metode pengendaliannya</p>
+    </header>
+
+    <section class="input-box">
+        <input type="text" id="inputSerangga" placeholder="Contoh: belalang, kutu daun, penggerek batang...">
+        <button onclick="cariSerangga()">Cari</button>
+    </section>
+
+    <section class="daftar">
+        <h2>Daftar Serangga yang Tersedia</h2>
+        <ul id="listSerangga"></ul>
+    </section>
+
+    <section id="hasil" class="hasil-box"></section>
+
+    <footer>
+        Dibuat oleh <strong>Kelompok 3</strong>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
